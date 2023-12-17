@@ -72,5 +72,10 @@ body {
     text-align: justify;
 }
 
-
 /* Hero and AboutMe section styles End */
+
+/* Project Section styles Start */
+.project_section p{
+    font-size: 1.25rem;
+}
+/* Project Section styles End */
