@@ -3,6 +3,17 @@ body {
     font-family: "Open Sans", Arial, Helvetica, sans-serif;
   }
 
+.separator {
+    border: 2px solid #737272;
+    margin: 10px 0;
+  }
+
+.about_icon,
+.project_icon,
+.contact-section .contact_icon {
+  width: 45px;
+  margin-right: 10px;
+}
 
 /* Navbar section styles Start */
 .navbar-brand {
@@ -32,7 +43,7 @@ body {
 }
 /* Navbar section styles End */
 
-/* Hero section styles Start */
+/* Hero and AboutMe section styles Start */
 .hero {
     background-size: cover;
     background-position: center;
@@ -50,9 +61,21 @@ body {
     box-sizing: border-box;
 }
 /* Adjust the height for small screens */
-@media (max-width: 767px) {
+@media (max-width: 1440px) {
     .hero img {
-        height: 40vh; /* Set the height to 100% of the viewport height */
+        height: 40vh;
     }
 }
-/* Hero section styles End */
+
+.aboutme p{
+    font-size: 1.5rem;
+    text-align: justify;
+}
+
+/* Hero and AboutMe section styles End */
+
+/* Project Section styles Start */
+.project_section p{
+    font-size: 1.25rem;
+}
+/* Project Section styles End */
