@@ -108,3 +108,20 @@ body {
     }
 }
 /* Contact Section styles End */
+
+/* Footer Section styles Start */
+.footer_links .nav-link:hover {
+    background-color: coral;
+    color: black;
+    font-style: italic;
+    border-bottom: 0.3rem solid #1b1b1c;
+}
+.footer_icons img{
+    width: 50px;
+    margin-right: 10px;
+}
+
+.btn-hover-shadow:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+/* Footer Section styles End */
