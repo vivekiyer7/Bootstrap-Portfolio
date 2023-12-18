@@ -10,7 +10,8 @@ body {
 
 .about_icon,
 .project_icon,
-.contact-section .contact_icon {
+.skill_icon,
+.contact_icon{
   width: 45px;
   margin-right: 10px;
 }
@@ -79,3 +80,31 @@ body {
     font-size: 1.25rem;
 }
 /* Project Section styles End */
+
+/* Skills Section styles Start */
+.skill-tile {
+    border: 2px solid #000;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.skill-tile:hover {
+    background-color: #e45cbe !important;
+}
+/* Skills Section styles End */
+
+/* Contact Section styles Start */
+  .contact-list img {
+    width: 50px;
+    margin-right: 10px;
+  }
+
+  @media (min-width: 961px) {
+    .contact-list a {
+        font-size: 2rem;
+    }
+}
+/* Contact Section styles End */
